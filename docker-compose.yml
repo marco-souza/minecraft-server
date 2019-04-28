@@ -8,4 +8,5 @@ services:
     environment:
       - EULA=TRUE
     volumes:
+      - ./data/:/data/
       - ./config/server.properties:/data/server.properties
